@@ -8,6 +8,7 @@
     <Folder Include="ViewModels\" />
     <Folder Include="Utils\" />
     <Folder Include="Extensions\" />
+    <Folder Include="ViewModels\Abstraction\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Extensions\StringExtensions.cs" />
