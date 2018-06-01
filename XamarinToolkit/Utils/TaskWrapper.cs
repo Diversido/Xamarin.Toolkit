@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
-using Diversido.XamarinToolkit.ViewModels.Abstraction;
+using Diversido.Toolkit.ViewModels.Abstraction;
 
-namespace Diversido.XamarinToolkit
+namespace Diversido.Toolkit
 {
 	public struct TaskWrapper
 	{

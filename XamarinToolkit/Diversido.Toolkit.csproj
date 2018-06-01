@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.5</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
-    <PackageId>Diversido.XamarinToolkit.Core</PackageId>
+    <PackageId>Diversido.Toolkit.Core</PackageId>
     <PackageVersion>0.0.0</PackageVersion>
     <Authors>Vladimir Lymar, Alexey Shikov</Authors>
     <Owners>Diversido Mobile</Owners>

@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diversido.XamarinToolkit", "XamarinToolkit\Diversido.XamarinToolkit.csproj", "{FBF8EF32-BFF0-46FE-9743-9CE52FCCA3B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diversido.Toolkit", "XamarinToolkit\Diversido.Toolkit.csproj", "{FBF8EF32-BFF0-46FE-9743-9CE52FCCA3B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Diversido.XamarinToolkit.ViewModels.Abstraction;
+using Diversido.Toolkit.ViewModels.Abstraction;
 
-namespace Diversido.XamarinToolkit.Extensions
+namespace Diversido.Toolkit.Extensions
 {
 	public static class ViewModelExtensions
 	{

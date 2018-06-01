@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Diversido.XamarinToolkit.ViewModels.Abstraction
+namespace Diversido.Toolkit.ViewModels.Abstraction
 {
 	public interface IViewModelBase
 	{
