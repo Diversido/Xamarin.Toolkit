@@ -4,7 +4,7 @@ using Diversido.XamarinToolkit.ViewModels.Abstraction;
 
 namespace Diversido.XamarinToolkit
 {
-	internal struct TaskWrapper
+	public struct TaskWrapper
 	{
 		Task task;
 
