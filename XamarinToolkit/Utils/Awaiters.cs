@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-public struct DetachSynchronizationContextAwaiter: ICriticalNotifyCompletion
+public struct DetachSynchronizationContextAwaiter: INotifyCompletion
 {
 	/// <summary>
 	/// Returns true if a current synchronization context is null.
@@ -19,12 +19,6 @@ public struct DetachSynchronizationContextAwaiter: ICriticalNotifyCompletion
 	public void GetResult () { }
 
 	public DetachSynchronizationContextAwaiter GetAwaiter () => this;
-
-	public void UnsafeOnCompleted (Action continuation)
-	{
-		// TODO: Fix if the exception will occur. Alternaively - update to .NET Standard 2.0
-		throw new NotImplementedException ();
-	}
 }
 
 public static class Awaiters
