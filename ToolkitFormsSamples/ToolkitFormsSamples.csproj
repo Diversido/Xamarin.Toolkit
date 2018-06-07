@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />  
-    <PackageReference Include="Diversido.Toolkit.Core" Version="0.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinToolkit\Diversido.Toolkit.csproj" />
   </ItemGroup>
 </Project>
