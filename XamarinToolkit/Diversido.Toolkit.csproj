@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.5</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>Diversido.Toolkit.Core</PackageId>
+    <PackageVersion>0.0.0</PackageVersion>
+    <Authors>Vladimir Lymar, Alexey Shikov</Authors>
+    <Owners>Diversido Mobile</Owners>
+    <Title>Diversido Xamarin Toolkit</Title>
+    <Description>A set of utils and tools for MVVM Xamarin applications development.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="ViewModels\Abstraction\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Extensions\StringExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="System.Threading.ThreadPool" Version="4.3.0" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.5.0" />
+  </ItemGroup>
+</Project>
